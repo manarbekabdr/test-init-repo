@@ -856,4 +856,32 @@ Untracked files:
 	[31msrc/[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hggit add s . commit -a[P[10C [11D[P[10C [11D[P[10C [11D[P[9C [11D[10C ""a"d"d" "a"n"d" "c"o"m"m"i"t"
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hggit add s . commit -a[P[10C [11D[P[10C [11D[P[10C [11D[P[9C [11D[10C ""a"d"d" "a"n"d" "c"o"m"m"i"t"[4C[4C[7C[1C[1C[1C "add and commit"[17D- "add and commit"[17Dm "add and commit"[17D[?2004l
+[master e2cfc2d] add and commit
+ 1 file changed, 822 insertions(+), 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hggit push[?2004l
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 5.03 KiB | 5.03 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/manarbekabdr/test-init-repo.git
+   a529c10..e2cfc2d  master -> master
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hgit push[?2004l
+Everything up-to-date
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hggit commit -m ""t"e"s"t"[?2004l
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   typescript[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31msrc/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hgit commit -m "test"               g  
