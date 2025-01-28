@@ -35,4 +35,825 @@ Untracked files:
 	[31mtypescript[m
 
 nothing added to commit but untracked files present (use "git add" to track)
-[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hggit add .
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hggit add . script.sh[1m [0m[0m          .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hggit commit -m ""t"e"s"t"i"n"g" "g"i"t" "i"n"i"t"[?2004l
+[master (root-commit) a529c10] testing git init
+ 2 files changed, 44 insertions(+)
+ create mode 100755 script.sh
+ create mode 100644 typescript
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hggit push[?2004l
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hggit remote add origin                 g  [7mgit remote add origin https://github.com/manarbekabdr/test-init-repo.git[27m[72D[27mg[27mi[27mt[27m [27mr[27me[27mm[27mo[27mt[27me[27m [27ma[27md[27md[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mm[27ma[27mn[27ma[27mr[27mb[27me[27mk[27ma[27mb[27md[27mr[27m/[27mt[27me[27ms[27mt[27m-[27mi[27mn[27mi[27mt[27m-[27mr[27me[27mp[27mo[27m.[27mg[27mi[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hggit push [?2004l
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hggit push -u origin main[?2004l
+error: src refspec main does not match any
+[31merror: failed to push some refs to 'https://github.com/manarbekabdr/test-init-repo.git'
+[m[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hgit push -u origin main  ster[?2004l
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 1005 bytes | 1005.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/manarbekabdr/test-init-repo.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hgit push -u origin master[?2004l
+branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hlls -la[?2004l
+total 24
+drwxr-xr-x   5 manarbekabdramanov  staff   160 Jan 27 20:45 .
+drwxr-xr-x   4 manarbekabdramanov  staff   128 Jan 27 20:41 ..
+drwxr-xr-x  12 manarbekabdramanov  staff   384 Jan 27 20:52 .git
+-rwxr-xr-x   1 manarbekabdramanov  staff    47 Jan 27 20:43 script.sh
+-rw-r--r--   1 manarbekabdramanov  staff  7459 Jan 27 20:58 typescript
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hlls -l .git[?2004l
+total 40
+-rw-r--r--   1 manarbekabdramanov  staff   17 Jan 27 20:47 COMMIT_EDITMSG
+-rw-r--r--   1 manarbekabdramanov  staff   23 Jan 27 20:45 HEAD
+-rw-r--r--   1 manarbekabdramanov  staff  320 Jan 27 20:52 config
+-rw-r--r--   1 manarbekabdramanov  staff   73 Jan 27 20:45 description
+drwxr-xr-x  16 manarbekabdramanov  staff  512 Jan 27 20:45 hooks
+-rw-r--r--   1 manarbekabdramanov  staff  217 Jan 27 20:47 index
+drwxr-xr-x   3 manarbekabdramanov  staff   96 Jan 27 20:45 info
+drwxr-xr-x   4 manarbekabdramanov  staff  128 Jan 27 20:47 logs
+drwxr-xr-x   8 manarbekabdramanov  staff  256 Jan 27 20:47 objects
+drwxr-xr-x   5 manarbekabdramanov  staff  160 Jan 27 20:52 refs
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hggit log[?2004l
+[?1h=[33mcommit a529c109b9c36db49c0f6e25978eb46e325feb21[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m[m
+Author: manarbekabdr <manarbek.abd@edu.312school.com>[m
+Date:   Mon Jan 27 20:47:38 2025 -0500[m
+[m
+    testing git init[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hgit log --oneline[?2004l
+[?1h=[33ma529c10[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m testing git init[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hggit lof  g -p[?2004l
+[?1h=[33mcommit a529c109b9c36db49c0f6e25978eb46e325feb21[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m[m
+Author: manarbekabdr <manarbek.abd@edu.312school.com>[m
+Date:   Mon Jan 27 20:47:38 2025 -0500[m
+[m
+    testing git init[m
+[m
+[1mdiff --git a/script.sh b/script.sh[m[m
+[1mnew file mode 100755[m[m
+[1mindex 0000000..36dfcc4[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/script.sh[m[m
+[36m@@ -0,0 +1,6 @@[m[m
+[32m+[m[32m#!/bin/bash[m[m
+[32m+[m[m
+[32m+[m[32mfor n in {1..5};[m[m
+[32m+[m[32mdo[m[m
+[32m+[m       [32mecho $n[m[m
+[32m+[m[32mdone[m[m
+[1mdiff --git a/typescript b/typescript[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..7d74834[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/typescript[m[m
+[36m@@ -0,0 +1,38 @@[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mScript started on Mon Jan 27 20:44:04 2025[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mcomplete:13: command not found: compdef[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1m.[0m/sc[7m^G^H^H^H^H[27m[1mc[0mhmod +x script.sh[1m [0m[7m^H[27m[0m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1m.[0m/script.sh[1m [0m[7m^H[27m[0m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m1[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m2[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m3[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m4[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m5[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mc[0mlear[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1ml[0ms[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mscript.sh      typescript[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit init[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[33mhint: Using 'master' as the name for the initial branch. This default branch name[m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[33mhint: is subject to change. To configure the initial branch name to use in all[m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+:[K[K [KESCESC[KOO[KBB[K[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m :[K[K [KESCESC[KOO[KBB[K[32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+:[K[K [KESCESC[KOO[KBB[K\ No newline at end of file[m[m
+:[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[K [K^X^X[K^?^?[K[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [K^X^X[K^X^X[Kgoto mark: [K[K[7mInvalid mark letter þ  (press RETURN)[27m[25;1H[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[K [KESCESC[KESCESC[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K [KESCESC[KESCESC[K[K[7m(END)[27m[K[K [KESCESC[KESCESC[K [KESCESC[K^J^J[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K [KESCESC[KESCESC[K [KESCESC[K^J^J[K[7m(END)[27m[K[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[H[2J[H[32m+[m[32m[33mhint: of your new repositories, which will suppress this warning, call:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git config --global init.defaultBranch <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint: 'development'. The just-created branch can be renamed via this command:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:[m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[33mhint:  git branch -m <name>[m[m[41m[7m^M[27m[m[m
+[32m+[m[32mInitialized empty Git repository in /Users/manarbekabdramanov/24c/test-init-repo/.git/[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mscript.sh[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mtypescript[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mnothing added to commit but untracked files present (use "git add" to track)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                  [m [32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m[0m[27m[24m[32mtest-init-repo > [39m[1mg[0mit add .[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[K [K^X^X[K^X^X[Kgoto mark: [K[K[7mInvalid mark letter   (press RETURN)[27m[25;1H[K[K[7m(END)[27m[K[K [K^X^X[K^X^X[Kgoto mark: [K[K[7mInvalid mark letter   (press RETURN)[27m[25;1H[K[K [K^X^X[K^X^X[Kgoto mark: [K[K[7mInvalid mark letter   (press RETURN)[27m[25;1H[K[K [K^X^X[K^?^?[K[7m(END)[27m[K[K[7m(END)[27m[K[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[K^J^J[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HM[32m+[m[32m[33mhint: is subject to change. To configure the initial branch name to use in all[m[m[41m[7m^M[27m[m[m
+[25;1H[K:[K[K [KESCESC[KOO[KBB[K\ No newline at end of file[m[m
+[7m(END)[27m[K[K [K::[Kqq[K[?1l>
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004h![?2004l
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004h![?2004l
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hccl[?2004l
+zsh: command not found: cl
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32m24c > [39m[K[?2004hccd test-init-repo[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hlls[?2004l
+script.sh	typescript
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hggit log[?2004l
+[?1h=[33mcommit a529c109b9c36db49c0f6e25978eb46e325feb21[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m[m
+Author: manarbekabdr <manarbek.abd@edu.312school.com>[m
+Date:   Mon Jan 27 20:47:38 2025 -0500[m
+[m
+    testing git init[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hgit log - --oneline[?2004l
+[?1h=[33ma529c10[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m testing git init[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hmmkf dir src[?2004l
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hccd s
+[Jscript.sh*  src/[A[0m[27m[24m[39m[17Ccd s[K[39mrc[1m/[0m[0m [?2004l
+[J[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32msrc > [39m[K[?2004hppqd p pwd[?2004l
+/Users/manarbekabdramanov/24c/test-init-repo/src
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32msrc > [39m[K[?2004hvvim test.py[?2004l
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;25r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[25;1H"test.py" [New][2;1Hâ–½[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                   [3;1H~                                                                                                   [4;1H~                                                                                                   [5;1H~                                                                                                   [6;1H~                                                                                                   [7;1H~                                                                                                   [8;1H~                                                                                                   [9;1H~                                                                                                   [10;1H~                                                                                                   [11;1H~                                                                                                   [12;1H~                                                                                                   [13;1H~                                                                                                   [14;1H~                                                                                                   [15;1H~                                                                                                   [16;1H~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                                                   [3;1H~                                                                                                   [4;1H~                                                                                                   [5;1H~                                                                                                   [6;1H~                                                                                                   [7;1H~                                                                                                   [8;1H~                                                                                                   [9;1H~                                                                                                   [10;1H~                                                                                                   [11;1H~                                                                                                   [12;1H~                                                                                                   [13;1H~                                                                                                   [14;1H~                                                                                                   [15;1H~                                                                                                   [16;1H~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [m[25;1H"test.py" [New][1;1H[?25h[?25l[25;1H[97m[41mE353: Nothing in register "[1;1H[?25h[?25l[25;4H: No previous regular expression[1;1H[?25h[?25l[25;4H3: Nothing in register "[m[25;28H[K[1;1H[?25h[?25l[25;4H[97m[41m: No previous regular expression[1;1H[?25h[?25l[m[25;1H[1m-- INSERT --[m[25;13H[K[1;1H[?25h[?25lp[?25h[?25lr[?25h[?25li[?25h[?25ln[?25h[?25lt[?25h[?25l [?25h[?25l[?25h[?25l([?25h[?25l[46m()[?25h[?25l[?25h[?25l[m"[46m)[?25h[?25l[m"[46m)[?25h[?25l[m("")[?25h[?25lh")[?25h[?25le")[?25h[?25ll")[?25h[?25ll")[?25h[?25lo")[?25h[?25l ")[?25h[?25lw")[?25h[?25lo")[?25h[?25lr")[?25h[?25ll")[?25h[?25ld")[?25h[25;1H[K[1;18H[?25l[?25h[?25l[25;1H:[?25hwq[?25l[?2004l[>4;m"test.py" [New] 1L, 21B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;m[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32msrc > [39m[K[?2004hppython3 test.py[1m [0m[0m [?2004l
+hello world
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32msrc > [39m[K[?2004hccat test.py[1m [0m[0m [?2004l
+print("hello world")
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32msrc > [39m[K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32msrc > [39m[K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32msrc > [39m[K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32msrc > [39m[K[?2004hggit tstus     status[?2004l
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../typescript[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m./[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32msrc > [39m[K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hcd ..git status[?2004l
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   typescript[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31msrc/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                    [0m[27m[24m[J[32mtest-init-repo > [39m[K[?2004hggit add s . commit -a[P[10C [11D[P[10C [11D[P[10C [11D[P[9C [11D[10C ""a"d"d" "a"n"d" "c"o"m"m"i"t"
